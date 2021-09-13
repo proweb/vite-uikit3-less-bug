@@ -1,0 +1,16 @@
+{
+  "name": "vite-uikit3-less-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "less": "^4.1.1",
+    "vite": "^2.5.4"
+  },
+  "dependencies": {
+    "uikit": "^3.7.3"
+  }
+}
