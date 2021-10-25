@@ -21,3 +21,21 @@
     at async viteTransformMiddleware (/home/sergey/project/node_modules/vite/dist/node/chunks/dep-9f74b403.js:65376:32
 
 ```
+
+## Update October 2021
+
+This less error can be solved with additional less configuration:
+
+We need vite.config.js file for it:
+
+```
+export default {
+  css: {
+    preprocessorOptions: {
+      less: {
+         math: 'always'
+      }
+    }
+  }
+}
+```
